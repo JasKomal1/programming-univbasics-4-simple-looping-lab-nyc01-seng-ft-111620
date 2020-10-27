@@ -4,16 +4,16 @@ def loop_message_five_times(str)
   
   while count < 5 do 
     puts str 
-    count++
+    count += 1
   end 
 end 
 
 def loop_message_n_times(str,int) 
   count = 0 
   
-  while count <= int do 
+  while count < int do 
     puts str 
-    count++
+    count += 1
   end
 end
 
@@ -22,7 +22,7 @@ def output_method(arr)
   
   while count < arr.length do 
     puts arr[count] 
-    count++
+    count += 1
   end 
 end
 
@@ -32,7 +32,7 @@ def return_string_array(arr)
   
   while count < arr.length do 
     new_arr << arr[count].to_s 
-    count++
+    count += 1
   end
   new_arr
 end
